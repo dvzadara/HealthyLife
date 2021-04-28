@@ -7,7 +7,7 @@ namespace Ui {
 class RationCreateWindow;
 }
 
-class RationCreateWindow : public QDialog
+class RationCreateWindow : public QDialog // Клас QMainWindow, з функціями головного вікна
 {
     Q_OBJECT
 
