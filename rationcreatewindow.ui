@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RationCreateWindow</class>
+ <widget class="QDialog" name="RationCreateWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>194</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Создание рациона</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>174</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Введите БЖУ(его можно расчитать в интернете)</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_proteins">
+        <property name="text">
+         <string>Белки, г</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="line_proteins"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_fats">
+        <property name="text">
+         <string>Жиры, г</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_carbohydrates">
+        <property name="text">
+         <string>Углеводы, г</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="line_carbohydrates"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="line_fats"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_createration">
+      <property name="text">
+       <string>Создать рацион</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>line_proteins</tabstop>
+  <tabstop>line_fats</tabstop>
+  <tabstop>line_carbohydrates</tabstop>
+  <tabstop>pushButton_createration</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

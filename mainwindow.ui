@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HealthyLife</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget_products">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>601</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <column>
+     <property name="text">
+      <string>Имя</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Размер порции</string>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Мин. количество</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Макс. количество</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Цена</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Белки</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Жиры</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Углеводы</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Витамин С</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Витамин B1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Витамин E</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Витамин B3 (PP)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Железо</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Витамин А</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Натрий</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Магний</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Витамин B2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Калорийность</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Калий</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Кальций</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Фосфор</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Холестерин</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Клетчатка</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Редактор списка продуктов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_saveproductslist">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>171</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить список</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_createration">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>420</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Создать рацион</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_standartproductslist">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>420</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Восстановить список по умолчанию</string>
+    </property>
+   </widget>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>Список продуктов</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Рационы</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>tableWidget_products</tabstop>
+  <tabstop>pushButton_createration</tabstop>
+  <tabstop>pushButton_saveproductslist</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
